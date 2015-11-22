@@ -1,0 +1,13 @@
+#which-host-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    font-family: monospace;
+    background: black;
+    z-index: 10000;
+    text-align: center;
+    color: green;
+    height: 16px;
+    line-height: 16px;
+}
