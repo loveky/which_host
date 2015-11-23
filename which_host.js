@@ -33,7 +33,20 @@ var render = function () {
 	if (!container) {
 		container = document.createElement('div');
 		container.setAttribute('id', 'which-host-container');
+		container.classList.add('right');
 		document.body.appendChild(container);
+
+		function toggleClass() {
+			if (container.classList.contains('left')) {
+				container.classList.remove('left');
+				container.classList.add('right');
+			} else {
+				container.classList.remove('right');
+				container.classList.add('left');
+			}
+		}
+
+		container.addEventListener('mouseenter', toggleClass, false);
 	}
 	
 	Object.keys(cache).forEach(function (hostname) {
