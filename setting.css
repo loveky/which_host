@@ -12,3 +12,37 @@ textarea {
 	height: 300px;
 	overflow: auto;
 }
+
+button {
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	color: #FFF;
+	border-color: #2e6da4;
+	background-color: #337ab7;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: #286090;
+	border-color: #204d74;
+}
+
+textarea {
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #555;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+}
