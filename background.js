@@ -36,7 +36,7 @@ chrome.webRequest.onCompleted.addListener(function (details) {
 		if (match = requestHostname.match(whiteList[i])) {
 			setTimeout(function () {
 				chrome.tabs.sendMessage(details.tabId, {"hostname" : requestHostname, "ip" : details.ip})
-			}, 1000);
+			}, 2000);
 		}
 	}
 }, filters)
