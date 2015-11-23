@@ -1,13 +1,48 @@
 #which-host-container {
     position: fixed;
     bottom: 0;
-    width: 100%;
-    font-size: 12px;
-    font-family: monospace;
-    background: black;
+    right: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    background: #f7f7f9;
     z-index: 10000;
     text-align: center;
-    color: green;
-    height: 16px;
-    line-height: 16px;
+    border: 1px solid #e1e1e8;
+}
+
+.item {
+    margin-top: 3px;
+}
+
+.item:first-child {
+    margin-top: 0;
+}
+
+.hostname, .ip {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.hostname {
+    background: #337ab7;
+    margin-right: 3px;
+}
+
+.ip {
+    background: #5cb85c;
+}
+
+.internal {
+    background: #f0ad4e;   
+}
+
+.cache {
+    background: #d9534f;
 }
