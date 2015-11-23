@@ -4,16 +4,17 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
     background: #f7f7f9;
     z-index: 10000;
-    text-align: center;
     border: 1px solid #e1e1e8;
 }
 
 #which-host-container.right {
     right: 0;
+    text-align: right;
 }
 
 #which-host-container.left {
     left: 0;
+    text-align: left;
 }
 
 .item {
