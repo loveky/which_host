@@ -17,6 +17,7 @@
 
 #which-host-container .item {
     margin-top: 3px;
+    height: 19px;
 }
 
 #which-host-container .item:first-child {
