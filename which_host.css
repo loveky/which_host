@@ -2,9 +2,7 @@
     position: fixed;
     bottom: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
-    background: #f7f7f9;
     z-index: 10000;
-    border: 1px solid #e1e1e8;
 }
 
 #which-host-container.right {
@@ -17,15 +15,15 @@
     text-align: left;
 }
 
-.item {
+#which-host-container .item {
     margin-top: 3px;
 }
 
-.item:first-child {
+#which-host-container .item:first-child {
     margin-top: 0;
 }
 
-.hostname, .ip {
+#which-host-container .hostname, .ip {
     display: inline;
     padding: .2em .6em .3em;
     font-size: 75%;
@@ -38,19 +36,20 @@
     border-radius: .25em;
 }
 
-.hostname {
+#which-host-container .hostname {
     background: #337ab7;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
-.ip {
+#which-host-container .ip {
     background: #5cb85c;
+    margin-right: 2px;
 }
 
-.internal {
+#which-host-container .internal {
     background: #f0ad4e;   
 }
 
-.cache {
+#which-host-container .cache {
     background: #d9534f;
 }
