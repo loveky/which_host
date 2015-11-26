@@ -1,4 +1,6 @@
 #which-host-container {
+    -webkit-user-select: none;
+    user-select: none;
     position: fixed;
     bottom: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
