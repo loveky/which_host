@@ -1,3 +1,5 @@
+# Moved to [jdf2e/which_host](https://github.com/jdf2e/which_host)
+
 # which_host
 a Chrome extension to show the IP of match hostnames
 
